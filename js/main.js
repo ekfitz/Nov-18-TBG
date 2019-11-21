@@ -1,5 +1,5 @@
-document.body.onload = setMobile;
-window.addEventListener("resize", setMobile);
+//document.body.onload = setMobile;
+//window.addEventListener("resize", setMobile);
 
 var menu = document.getElementById("menu");
 var page1 = document.getElementById("page1");
@@ -20,7 +20,7 @@ nav1.innerHTML = "Press";
 nav2.innerHTML = "Studio";
 nav3.innerHTML = "About";
 
-nav1.onclick = goPress;
+//nav1.onclick = goPress;
 
 function goPress() {
   window.location.href = "press.html";
